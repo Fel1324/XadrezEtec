@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Formulário de inscrição do campeonato de xadrez da Etec de Barra Bonita!">
+    <link rel="shortcut icon" href="./src/assets/favicon.svg" type="xml+svg">
+    <title>Xadrez Etec | Formulário de Inscrição</title>
+    <link rel="stylesheet" href="./src/styles/global.css">
+    <link rel="stylesheet" href="./src/styles/form.css">
+    <link rel="stylesheet" href="./src/styles/menu.css">
+  </head>
+  <body>
+    <header class="header">
+      <a href="./index.html" hreflang="pt-br" rel="prev" aria-label="Voltar para página inicial">
+        <img src="./src/assets/back.svg" alt="Seta para a esquerda indicando a ação de voltar para página inicial">
+      </a>
+
+      <button id="configBtn" aria-label="Abrir menu de configurações clicando no botão ou apertando a tecla Esc">
+        <img src="./src/assets/config.svg" alt="Menu de configurações">
+      </button>
+    </header>
+
+    <aside id="configMenu" class="menu">
+      <div class="menu__content">
+        <ul class="menu__list">
+          <li class="menu__item">
+            <button id="increasesBtn">A+</button>
+            <button id="decreasesBtn">A-</button>
+          </li>
+        </ul>
+      </div>
+    </aside>
+
+    <main class="main">
+      <div class="main__header">
+        <img src="./src/assets/logo.svg" alt="Logo do Xadrez Etec representado pela peça Rainha">
+        <h1 class="title first-title">Formulário</h1>
+      </div>
+
+      <div class="section__images">
+        <div class="images__header">
+          <span class="letters">f</span>
+          <span class="letters">g</span>
+          <span class="letters">h</span>
+          <span class="letters">i</span>
+          <span class="letters">j</span>
+        </div>
+        <img class="images__squares" src="./src/assets/squares-form.svg" alt="">
+      </div>
+
+      <div class="main__form">
+        <form id="form" class="form">
+          <fieldset class="form__private">
+            <legend>Informações Pessoais</legend>
+
+            <div>
+              <label for="name">Nome completo *</label>
+              <input type="text" name="name" id="name" minlength="5" maxlength="80" required>
+            </div>
+
+            <div>
+              <label for="date">Data de Nascimento *</label>
+              <input type="date" name="date" id="date" required>
+            </div>
+
+            <div>
+              <label for="email">Email</label>
+              <input type="email" name="email" id="email">
+            </div>
+
+            <div>
+              <label for="tel">Telefone</label>
+              <input type="tel" name="tel" id="tel" value="+55">
+            </div>
+
+            <ul class="categories">
+              <li class="categories__title">Categoria *</li>
+
+              <li>
+                <input type="radio" name="category" id="kid" checked>
+                <label for="kid">Infantil (Abaixo de 12 anos)</label>
+              </li>
+
+              <li>
+                <input type="radio" name="category" id="male">
+                <label for="male">Masculino</label>
+              </li>
+
+              <li>
+                <input type="radio" name="category" id="female">
+                <label for="female">Feminino</label>
+              </li>
+
+              <li>
+                <input type="radio" name="category" id="adapted">
+                <label for="adapted">Adaptado (Deficiência Visual)</label>
+              </li>
+            </ul>
+          </fieldset>
+
+          <fieldset class="form__responsible">
+            <legend>Informações do responsável</legend>
+
+            <div>
+              <label for="responsibleName">Nome completo *</label>
+              <input type="text" name="responsibleName" id="responsibleName" minlength="5" maxlength="80" required>
+            </div>
+
+            <div>
+              <label for="responsibleEmail">Email *</label>
+              <input type="email" name="responsibleEmail" id="responsibleEmail" required>
+            </div>
+
+            <div>
+              <label for="responsibleTel">Telefone *</label>
+              <input type="tel" name="responsibleTel" id="responsibleTel" value="+55" required>
+            </div>
+          </fieldset>
+      
+          <button class="form__submit" type="submit">Enviar</button>
+        </form>
+
+        <section>
+          <h2 class="title">Taxa de Inscrição:</h2>
+          <h3 class="title">Alimentos não perecíveis</h3>
+        </section>
+      </div>
+
+      <div class="section__images">
+        <div class="images__header">
+          <span class="letters">f</span>
+          <span class="letters">g</span>
+          <span class="letters">h</span>
+          <span class="letters">i</span>
+          <span class="letters">j</span>
+        </div>
+        <img class="images__squares" src="./src/assets/squares-form.svg" alt="">
+      </div>
+    </main>
+
+    <footer class="footer">
+      <h2 class="title first-title">Local do campeonato:</h2>
+      <address class="address">
+        Rua Ludovico Victório, 2140 - Vila Hab, Barra Bonita - SP, 17340-000
+      </address>
+
+      <div class="footer__message">
+        <img src="./src/assets/logo.svg" alt="Logo do Xadrez Etec representado pela peça Rainha">
+        <span class="">Bons Jogos!</span>
+      </div>
+
+      <p class="footer__paragraph">Uma ação do Grêmio Estudantil</p>
+
+      <a href="./index.html" hreflang="pt-br" rel="prev" aria-label="Voltar para página inicial">
+        <img src="./src/assets/back.svg" alt="Seta para a esquerda indicando a ação de voltar para página inicial">
+      </a>
+    </footer>
+    
+    <script src="./src/scripts/main.js"></script>
+    <script src="./src/scripts/form.js"></script>
+  </body>
+</html>

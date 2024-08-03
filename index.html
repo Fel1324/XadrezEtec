@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Página inicial do campeonato de xadrez da Etec de Barra Bonita!">
+    <link rel="shortcut icon" href="./src/assets/favicon.svg" type="xml+svg">
+    <title>Xadrez Etec | Início</title>
+    <link rel="stylesheet" href="./src/styles/global.css">
+    <link rel="stylesheet" href="./src/styles/index.css">
+    <link rel="stylesheet" href="./src/styles/menu.css">
+  </head>
+  <body>
+    <header class="header">
+      <img src="./src/assets/logo.svg" alt="Logo do Xadrez Etec representado pela peça Rainha">
+      <button id="configBtn" aria-label="Abrir menu de configurações clicando no botão ou apertando a tecla Esc">
+        <img src="./src/assets/config.svg" alt="Engrenagem que representa a opção de abrir as configurações">
+      </button>
+    </header>
+
+    <aside id="configMenu" class="menu">
+      <div class="menu__content">
+        <ul class="menu__list">
+          <li class="menu__item">
+            <button id="increasesBtn">A+</button>
+            <button id="decreasesBtn">A-</button>
+          </li>
+        </ul>
+      </div>
+    </aside>
+
+    <main class="main">
+      <section class="main__information">
+        <h1 class="title first-title">O primeiro mega campeonato de xadrez da Etec de Barra Bonita!</h1>
+
+        <h2 class="title second-title">Irá acontecer na</h2>
+        <h3 class="title third-title">Etec Comendador João Rays</h3>
+
+        <h3 class="title second-title">Dia 18/08</h3>
+        <h3 class="title second-title">Às 10:00 da manhã</h3>
+        
+        <address class="address">
+          Rua Ludovico Victório, 2140 - Vila Hab, Barra Bonita - SP, 17340-000
+        </address>
+
+        <h2 class="title second-title">Taxa de inscrição: alimentos não perecíveis</h2>
+      </section>
+    </main>
+
+    <div class="section__images">
+      <div class="images__header">
+        <span class="letters">f</span>
+        <span class="letters">g</span>
+        <span class="letters">h</span>
+      </div>
+      <img class="images__squares" src="./src/assets/squares-index.svg" alt="">
+    </div>
+    
+    <footer class="footer">
+      <img class="footer__image" src="./src/assets/parts.png" alt="">
+
+      <div class="footer__logo">
+        <img src="./src/assets/logo.svg" alt="Logo do Xadrez Etec representado pela peça Rainha">
+      </div>
+
+      <div class="footer__content">
+        <a href="./form.html" hreflang="pt-br" rel="next">Inscrever-se</a>
+        <p>Uma ação do grêmio estudantil</p>
+      </div>
+    </footer>
+
+    <script src="./src/scripts/main.js"></script>
+  </body>
+</html>
