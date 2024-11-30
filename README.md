@@ -71,4 +71,4 @@ Clique [aqui](https://fel1324.github.io/XadrezEtec/) para acessar o projeto!
 
 <h2 id="license">📝 Licença</h2>
 
-Todo esse trabalho está sob a licença MIT.
+Esse projeto está sob a licença MIT.
