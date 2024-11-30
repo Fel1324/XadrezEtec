@@ -51,6 +51,7 @@ Clique [aqui](https://fel1324.github.io/XadrezEtec/) para acessar o projeto!
 * HTML e CSS
 * Javascript
 * Git e Github
+* Figma
 
 <br>
 
@@ -62,9 +63,9 @@ Clique [aqui](https://fel1324.github.io/XadrezEtec/) para acessar o projeto!
 
 <h2 id="membros">🧑‍🤝‍🧑 Membros do grupo</h2>
 
-* Desenvolvedor Front-End: [Matheus Nunes Bertolini](https://github.com/Matheus-Bertolini)
-* Desenvolvedor Front-End: [Rafael Roberto de Oliveira](https://github.com/Fel1324)
-* Designer: [Rafaela Alessandra Torelli](https://github.com/RafaelaAT)
+* Desenvolvedor Front-End: <a href="https://github.com/Matheus-Bertolini" target="_blank">Matheus Nunes Bertolini</a>
+* Desenvolvedor Front-End: <a href="https://github.com/Fel1324" target="_blank">Rafael Roberto de Oliveira</a>
+* Designer: <a href="https://github.com/RafaelaAT" target="_blank">Rafaela Alessandra Torelli</a>
 
 <br>
 
